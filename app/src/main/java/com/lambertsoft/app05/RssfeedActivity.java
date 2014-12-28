@@ -30,6 +30,7 @@ public class RssfeedActivity extends Activity implements  MyListFragment.OnItemS
             Intent intent = new Intent(getApplicationContext(),
                     DetailActivity.class);
             intent.putExtra(DetailActivity.EXTRA_URL, link);
+
             startActivity(intent);
 
         }
